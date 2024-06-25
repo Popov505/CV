@@ -1,0 +1,179 @@
+/* PERSONNAL - START */
+.personnal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    ". personnal-title ."
+    "contact informations various";
+}
+.personnal .personnal-title {
+  grid-area: personnal-title;
+  text-align: center;
+}
+.personnal section {
+  display: flex;
+  flex-direction: column;
+}
+.personnal section h3 {
+  text-align: center;
+}
+.personnal .contact {
+  grid-area: contact;
+}
+.personnal .contact div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.personnal .informations {
+  grid-area: informations;
+}
+.personnal .various {
+  grid-area: various;
+  background-image: url("../../images/photos/photo-ivan-surf-square.webp");
+  background-size: cover;
+  filter: brightness(130%);
+}
+.personnal .various h3, .personnal .various p {
+  text-shadow: white 0 0 3px;
+  color: black;
+}
+.logo-social {
+  width: 2.5rem;
+}
+/* Responsive Personnal */
+@media only screen and (max-width: 768px) {
+  .personnal {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* PERSONNAL - END */
+
+/* SKILLS - START */
+
+main .skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    ". skills-title ."
+    "front-skill-set back-skill-set bdd-skill-set"
+    "soft-skill-set tool-skill-set office-skill-set";
+}
+main article .skills-title {
+  grid-area: skills-title;
+  text-align: center;
+}
+.skills section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills section h3 {
+  text-align: center;
+}
+.skills section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.front-skill-set {
+  grid-area: front-skill-set;
+}
+.back-skill-set {
+  grid-area: back-skill-set;
+}
+.bdd-skill-set {
+  grid-area: bdd-skill-set;
+}
+.soft-skill-set {
+  grid-area: soft-skill-set;
+}
+.tool-skill-set {
+  grid-area: tool-skill-set;
+}
+.office-skill-set {
+  grid-area: office-skill-set;
+}
+
+/* Responsive Skills */
+@media only screen and (max-width: 768px) {
+  main .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "skills-title skills-title"
+      "front-skill-set back-skill-set"
+      "bdd-skill-set soft-skill-set"
+      "tool-skill-set office-skill-set";
+  }
+}
+
+/* SKILLS - END */
+
+/* STUDIES - START */
+
+main .studies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    ". studies-title ."
+    "studi um2 iut";
+}
+.studies .studies-title {
+  grid-area: studies-title;
+  text-align: center;
+}
+.studies .studi {
+  grid-area: studi;
+}
+.studies .um2 {
+  grid-area: um2;
+}
+.studies .iut {
+  grid-area: iut;
+}
+/* Responsive Studies */
+@media only screen and (max-width: 768px) {
+  main .studies {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "studies-title"
+      "studi"
+      "um2"
+      "iut";
+  }
+}
+
+/* STUDIES - END */
+
+/* EXPERIENCES - START */
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experiences section {
+  display: flex;
+  flex-direction: column;
+}
+.experiences section {
+  text-align: center;
+}
+.experiences section .experience {
+  background-color: var(--paler-white);
+  border-radius: 0.3rem;
+  padding: 1rem;
+  text-align: start;
+}
+
+/* EXPERIENCES - END */

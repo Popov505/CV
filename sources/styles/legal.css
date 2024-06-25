@@ -1,0 +1,54 @@
+main .legals {
+  display: flex;
+  flex-direction: column;
+}
+main .legals h2 {
+  text-align: center;
+}
+
+/* SOURCES - START */
+
+.legals .sources {
+  display: flex;
+  flex-direction: column;
+}
+.legals .sources h3 {
+  text-align: center;
+}
+.legals .sources div {
+  display: grid;
+  grid-template-areas:
+    "title image"
+    "text image";
+  background-color: var(--paler-white);
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+.legals .sources div .title {
+  grid-area: title;
+}
+.legals .sources div .text {
+  grid-area: text;
+}
+.legals .sources div .image {
+  grid-area: image;
+}
+
+.legals .sources div .image img{
+  max-width: 20rem;
+  max-height: 10rem;
+}
+
+/* Responsive Sources */
+@media only screen and (max-width: 768px) {
+  .legals .sources div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--paler-white);
+    border-radius: 0.3rem;
+    padding: 1rem;
+  }
+}
+
+/* SOURCES - END */

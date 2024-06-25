@@ -1,0 +1,328 @@
+/* RESET - START */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a {
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* RESET - END */
+
+/* FONTS - START */
+html, button {
+	font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--darker-white);
+}
+/* Titles */
+h1, h2, h3, h4 {
+  font-family: 'Roboto+slab', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.5rem;
+  color: var(--orange);
+}
+h2 {
+  font-size: 1.9rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+/* FONTS - END */
+
+/* COLORS - START */
+
+:root {
+  /************************ Dark theme ********** | *** Pale theme *****/
+  --darker-blue: #001224; /* 1st Background *** | *** Titles h2 ******/
+  --paler-white: #EEEEEE; /* Titles h2 ******** | *** 1st Background */
+  --darker-white: #BBBBBB; /* 2nd Background ** | *** 2nd Background */
+  --darker-grey: #333333; /* Titles h3 ******** | *** Titles h3 ******/
+  --paler-grey: #555555;  /* Text ************* | *** Text ***********/
+  /* Highlight */
+  --orange: #FFA500;  /* Highlight the name */
+  /* Links */
+  --green: #78b613; /* Link text */
+  /* Skills */
+  --dark-blue: #345375F0;  /* Front Skills background */
+  --pale-blue: #7dbeff;  /* Front Skills text */
+  --dark-green: #586836F0; /* Back Skills background */
+  --pale-green: #d2fa83; /* Back Skills text */
+  --dark-yellow: #5c5934f0; /* Soft Skills background */
+  --pale-yellow: #fdfb87; /* Soft Skills text */
+  --dark-grey: #5c5c5cf0; /* Office Skills background */
+  --pale-grey: #dddddd; /* Office Skills text */
+  --dark-orange: #5c4b34F0; /* Tool Skills background */
+  --pale-orange: #ffb14a; /* Tool Skills text */
+  --dark-purple: #5c345cF0; /* BDD & Deployment Skills background */
+  --pale-purple: #fd87fd; /* BDD & Deployment Skills text */
+}
+
+button:hover, .link-text:hover, .link:hover {
+  cursor: pointer;
+  filter: brightness(125%);
+}
+/* Theme colors */
+/* Dark theme */
+.dark-theme {
+  background-color: var(--darker-blue);
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.dark-theme h2{
+  color: var(--paler-white);
+}
+/* Pale theme */
+.pale-theme {
+  background-color: var(--paler-white);
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.pale-theme h2{
+  color: var(--darker-blue);
+}
+/* Common for both themes */
+.dark-theme section, .pale-theme section {
+  background-color: var(--darker-white);
+  color: var(--paler-grey);
+  border-radius: 0.3rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+.dark-theme h3, .pale-theme h3 {
+  color: var(--darker-grey);
+}
+
+/* COLORS - END */
+
+/* SKILLS - START */
+
+/* Skills */
+.skills .front-skill, 
+.skills .tool-skill, 
+.skills .back-skill,
+.skills .soft-skill,
+.skills .office-skill,
+.skills .bdd-skill {
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.2rem 0.3rem;
+  margin: 0.2rem;
+}
+/* Hard Skills */
+.skills .front-skill {
+  background-color: var(--dark-blue);
+  color: var(--pale-blue);
+}
+/* Tool Skills */
+.skills .tool-skill {
+  background-color: var(--dark-orange);
+  color: var(--pale-orange);
+}
+/* Design Skills */
+.skills .back-skill {
+  background-color: var(--dark-green);
+  color: var(--pale-green);
+}
+/* Personnal soft Skills */
+.skills .soft-skill {
+  background-color: var(--dark-yellow);
+  color: var(--pale-yellow);
+}
+/* BDD and deployment Skills */
+.skills .bdd-skill {
+  background-color: var(--dark-purple);
+  color: var(--pale-purple);
+}
+/* Office Skills */
+.skills .office-skill {
+  background-color: var(--dark-grey);
+  color: var(--pale-grey);
+}
+
+/* SKILLS - END */
+
+/* Links */
+.link-text {
+  border-radius: 0.3rem;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.2rem 0.3rem;
+  margin: 0.2rem;
+  background-color: var(--green);
+  color: var(--paler-white);
+  font-size: 1.2rem;
+}
+
+/* HEADER - START */
+/* General */
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "picture name navigation"
+    "picture job navigation"
+    "picture status navigation";
+  gap: 1.5rem;
+  max-width: 100%;
+  align-items: center;
+  background-image: url('../../images/backgrounds/Tomislav\ Jakupec\ Pixabay\ 2.png');
+  background-size: cover;
+  padding: 1rem;
+}
+/* Picture */
+header .profile-picture {
+  height : 10rem;
+  grid-area: picture;
+  border: 0.1rem solid var(--paler-white);
+  border-radius: 50%;
+}
+
+
+/* Name */
+header .name {
+  grid-area: name;
+}
+/* Job */
+header .job {
+  grid-area: job;
+  color: var(--paler-white);
+}
+/* Status */
+header .status {
+  grid-area: status;
+}
+/* Navigation */
+header .nav-list {
+  grid-area: navigation;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+/* Responsive Header */
+@media only screen and (max-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "name navigation"
+      "job navigation"
+      "status navigation";
+    gap: 1.5rem;
+    max-width: 100%;
+    align-items: center;
+    background-image: url('../../images/backgrounds/Tomislav\ Jakupec\ Pixabay\ 2.png');
+    background-size: cover;
+    padding: 1rem;
+  }
+  header .profile-picture {
+    display: none;
+  }
+}
+/* HEADER - END */
+
+/* FOOTER - START */
+/* General */
+footer {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "contacts . social"
+    ". legal .";
+  max-width: 100%;
+  gap: 1rem;
+  padding: 1rem;
+  background-image: url('../../images/backgrounds/Tomislav\ Jakupec\ Pixabay\ 2.png');
+  background-size: cover;
+}
+/* Contacts */
+footer article {
+  text-align: center;
+}
+footer article h2 {
+  color: var(--paler-white);
+}
+footer .contacts {
+  grid-area: contacts;
+}
+footer .contacts p, footer .legal p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* Social networks */
+footer .social {
+  grid-area: social;
+}
+/* Sources and legal */
+footer .legal {
+  grid-area: legal;
+}
+/* Logos of social network */
+footer .logo-social {
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* Responsive Header */
+@media only screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-image: url('../../images/backgrounds/Tomislav\ Jakupec\ Pixabay\ 2.png');
+    background-size: cover;
+  }
+}
+/* FOOTER - END */

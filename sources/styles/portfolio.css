@@ -1,0 +1,55 @@
+/* PORTFOLIO - START */
+/* Article */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio h2 {
+  text-align: center;
+}
+.portfolio .project {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "title title"
+    "image description"
+    "image skills";
+  max-width: 100%;
+  align-items: center;
+}
+/* Title <h3> */
+.portfolio .project .title {
+  grid-area: title;
+  text-align: center;
+}
+/* Link <a> */
+.portfolio .project .link {
+  grid-area: image;
+}
+/* Image <img> in the link */
+.portfolio .project .image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* Article description <p> */
+.portfolio .project .description {
+  grid-area: description;
+}
+/* List of skills <ul> */
+.portfolio .project .skills {
+  grid-area: skills;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Responsive Portfolio */
+@media only screen and (max-width: 768px) {
+  .portfolio .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* PORTFOLIO - END */

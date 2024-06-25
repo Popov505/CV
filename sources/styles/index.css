@@ -1,0 +1,133 @@
+/* INDEX - START */
+
+/* General */
+main article {
+  text-align: center;
+}
+/* Introduction article */
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Horizontal scroll of the skills */
+main article .scroll-section {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--paler-white);
+  display: flex;
+  flex-direction: column;
+}
+main article .scroll-section .scroll-div {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  animation: scroll-text 30s linear infinite;
+  white-space: nowrap;
+}
+/* Scroll animation */
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%); /* Début de l'animation */
+  }
+  100% {
+    transform: translateX(-220%); /* Fin de l'animation */
+  }
+}
+
+/* About article */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .about-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--darker-blue);
+  color: var(--darker-white);
+}
+.about .about-section .about-picture {
+  width: 12rem;
+}
+.about .about-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.about .cv-form button {
+  border: none;
+}
+
+/* Portfolio article */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Portfolio Carrousel - START */
+.portfolio .carrousel {
+  background-color: var(--paler-white);
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    ". title ."
+    "previous slide next";
+  gap: 1.5rem;
+}
+.portfolio .carrousel-title {
+  grid-area: title;
+}
+.portfolio .button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  z-index: 2;
+  cursor: pointer;
+  color: var(--paler-grey);
+}
+#previous_button {
+  grid-area: previous;
+}
+#next_button {
+  grid-area: next;
+}
+.portfolio .carrousel .slide {
+  grid-area: slide;
+  opacity: 0;
+}
+.portfolio .carrousel .active {
+  opacity: 1;
+  animation-name: slide-activation;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.portfolio .slide .image {
+  width: 20rem;
+}
+.portfolio .slide .title {
+  color: var(--paler-grey);
+}
+@keyframes slide-activation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity : 1;
+  }
+}
+
+/* Portfolio Carrousel - END */
+
+/* INDEX - END */
