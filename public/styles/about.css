@@ -5,7 +5,7 @@
   grid-template-rows: auto auto;
   grid-template-areas:
     ". personnal-title ."
-    "contact informations various";
+    "informations contact various";
 }
 .personnal .personnal-title {
   grid-area: personnal-title;
@@ -30,6 +30,8 @@
 .personnal .informations {
   grid-area: informations;
   background-image: url("/public/images/photos/photo-ivan-bureau-square.webp");
+  background-size: cover;
+  filter: brightness(130%);
 }
 .personnal .various {
   grid-area: various;
