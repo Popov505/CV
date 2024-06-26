@@ -101,7 +101,7 @@
             <div class="slide">
               <img 
                 class="image" 
-                src="../../images/illustrations/illustration-des.webp" 
+                src="/../images/illustrations/illustration-des.webp" 
                 alt="Illustation du site de jeu de dés">
               <h4 class="title">Jeu de dés</h4>
             </div>
