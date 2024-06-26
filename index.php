@@ -134,7 +134,7 @@
 
       <!--Footer-->
       <?php 
-      include '/public/php/footer.php'
+      include './public/php/footer.php'
       ?>
      
   </body>
