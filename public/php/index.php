@@ -12,7 +12,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
       <!--Styles : CSS-->
       <link rel="stylesheet" href="/../styles/common.css" type="text/css">
-      <link rel="stylesheet" href="/public/styles/index.css" type="text/css">
+      <link rel="stylesheet" href="./public/styles/index.css" type="text/css">
       <!--Script : JS-->
       <script defer src="/public/scripts/index.js"></script>
     </head>
@@ -65,7 +65,7 @@
             </p>
             <img
               class="about-picture"
-              src="/public/images/photos/photo-ivan-surf.webp" 
+              src="./public/images/photos/photo-ivan-surf.webp" 
               alt="Photo de Ivan Delville, développeur web full stack, en train de surfer">
           </section>
           <div class="about-buttons">
@@ -101,7 +101,7 @@
             <div class="slide">
               <img 
                 class="image" 
-                src="/../images/illustrations/illustration-des.webp" 
+                src="./../images/illustrations/illustration-des.webp" 
                 alt="Illustation du site de jeu de dés">
               <h4 class="title">Jeu de dés</h4>
             </div>
@@ -109,7 +109,7 @@
             <div class="slide">
               <img 
                 class="image" 
-                src="../../images/illustrations/illustration-nutritionniste.webp" 
+                src="./../../images/illustrations/illustration-nutritionniste.webp" 
                 alt="Illustation du site de Sandrine Coupart : diététicienne-nutritionniste">
               <h4 class="title">Sandrine Coupart : diététicienne-nutritionniste</h4>
             </div>
@@ -117,7 +117,7 @@
             <div class="slide">
               <img 
                 class="image" 
-                src="../../images/illustrations/illustration-garage.webp" 
+                src="/../../images/illustrations/illustration-garage.webp" 
                 alt="Illustation du site garage de Vincent Parrot">
               <h4 class="title">Garage automobile : V.Parrot</h4>
             </div>
