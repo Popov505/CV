@@ -11,14 +11,14 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
       <!--Styles : CSS-->
-      <link rel="stylesheet" href="public/styles/common.css" type="text/css">
-      <link rel="stylesheet" href="public/styles/about.css" type="text/css">
+      <link rel="stylesheet" href="/public/styles/common.css" type="text/css">
+      <link rel="stylesheet" href="/public/styles/about.css" type="text/css">
     </head>
 
     <body>
       <!--Header-->
       <?php 
-        include './public/php/header.php'
+        include '/public/php/header.php'
       ?>
 
       <main>
@@ -244,7 +244,7 @@
 
       <!--Footer-->
       <?php 
-      include './public/php/footer.php'
+      include '/public/php/footer.php'
       ?>
      
   </body>
