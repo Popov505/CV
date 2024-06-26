@@ -31,13 +31,11 @@
   grid-area: informations;
   background-image: url("/public/images/photos/photo-ivan-bureau-square.webp");
   background-size: cover;
-  filter: brightness(70%);
 }
 .personnal .various {
   grid-area: various;
   background-image: url("/public/images/photos/photo-ivan-surf-square.webp");
   background-size: cover;
-  /*filter: brightness(70%);*/
 }
 .personnal .various h3, .personnal .various p, 
 .personnal .informations h3, .personnal .informations p {

@@ -24,6 +24,7 @@
       <main>
         <article class="personnal dark-theme">
           <h2 class="personnal-title">A propos</h2>
+          
           <section class="informations">
             <h3>Informations personnelles</h3>
             <p>Né le 21/12/1985 (38 ans)</p>
