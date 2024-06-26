@@ -11,7 +11,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
       <!--Styles : CSS-->
-      <link rel="stylesheet" href="/public/styles/common.css" type="text/css">
+      <link rel="stylesheet" href="/../styles/common.css" type="text/css">
       <link rel="stylesheet" href="/public/styles/index.css" type="text/css">
       <!--Script : JS-->
       <script defer src="/public/scripts/index.js"></script>
@@ -65,7 +65,7 @@
             </p>
             <img
               class="about-picture"
-              src="../../images/photos/photo-ivan-surf.webp" 
+              src="/public/images/photos/photo-ivan-surf.webp" 
               alt="Photo de Ivan Delville, développeur web full stack, en train de surfer">
           </section>
           <div class="about-buttons">
