@@ -11,10 +11,10 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
       <!--Styles : CSS-->
-      <link rel="stylesheet" href="/styles/common.css" type="text/css">
-      <link rel="stylesheet" href="/styles/index.css" type="text/css">
+      <link rel="stylesheet" href="public/styles/common.css" type="text/css">
+      <link rel="stylesheet" href="public/styles/index.css" type="text/css">
       <!--Script : JS-->
-      <script defer src="/scripts/index.js"></script>
+      <script defer src="public/scripts/index.js"></script>
     </head>
 
     <body>
