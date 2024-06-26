@@ -49,7 +49,7 @@
                 href="https://pixabay.com/fr/vectors/m%C3%A9dias-sociaux-jeu-dic%C3%B4nes-facebook-6261530/" 
                 target="_blank">
                 <img
-                  src="public/images/logos/logo-source.webp" 
+                  src="/public/images/logos/logo-source.webp" 
                   alt="Logo des réseaux sociaux : goddessSue13 du site Pixabay">
               </a>
             </div>

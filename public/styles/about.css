@@ -29,6 +29,7 @@
 }
 .personnal .informations {
   grid-area: informations;
+  background-image: url("/public/images/photos/photo-ivan-bureau-square.webp");
 }
 .personnal .various {
   grid-area: various;

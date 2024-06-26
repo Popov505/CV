@@ -24,6 +24,13 @@
       <main>
         <article class="personnal dark-theme">
           <h2 class="personnal-title">A propos</h2>
+          <section class="informations">
+            <h3>Informations personnelles</h3>
+            <p>Né le 21/12/1985 (38 ans)</p>
+            <p>Marié</p>
+            <p>Permis A et B</p>
+          </section>
+
           <section class="contact">
             <h3>Contacts</h3>
             <p>Téléphone : 06 76 76 32 52</p>
@@ -36,13 +43,6 @@
                 <img class="logo-social link" src="/public/images/logos/logo-github.webp" alt="Accès à mon profil Github - Logo de Github">
               </a>
             </div>
-          </section>
-          
-          <section class="informations">
-            <h3>Informations personnelles</h3>
-            <p>Né le 21/12/1985 (38 ans)</p>
-            <p>Marié</p>
-            <p>Permis A et B</p>
           </section>
 
           <section class="various">

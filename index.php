@@ -65,7 +65,7 @@
             </p>
             <img
               class="about-picture"
-              src="/public/images/photos/photo-ivan-surf.webp" 
+              src="/public/images/photos/photo-ivan-bureau-round.webp" 
               alt="Photo de Ivan Delville, développeur web full stack, en train de surfer">
           </section>
           <div class="about-buttons">
