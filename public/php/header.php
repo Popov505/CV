@@ -17,7 +17,7 @@
         <a class="link-text" href="/public/php/about.php" target="_top">
           A propos
         </a>
-        <a class="link-text" href="./portfolio.php" target="_top">
+        <a class="link-text" href="/public/php/portfolio.php" target="_top">
           Portfolio
         </a>
         <!-- 

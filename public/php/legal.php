@@ -11,14 +11,14 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
       <!--Styles : CSS-->
-      <link rel="stylesheet" href="../styles/common.css" type="text/css">
-      <link rel="stylesheet" href="../styles/legal.css" type="text/css">
+      <link rel="stylesheet" href="/public/styles/common.css" type="text/css">
+      <link rel="stylesheet" href="/public/styles/legal.css" type="text/css">
     </head>
 
     <body>
       <!--Header-->
       <?php 
-      include './header.php'
+      include './public/php/header.php'
       ?>
 
       <main>
@@ -36,7 +36,7 @@
                 href="https://pixabay.com/fr/illustrations/r%C3%A9sum%C3%A9-contexte-fond-d%C3%A9cran-1780171/" 
                 target="_blank">
                 <img
-                  src="../../images/backgrounds/Tomislav Jakupec Pixabay 2.png" 
+                  src="/public/images/backgrounds/Tomislav Jakupec Pixabay 2.png" 
                   alt="Image du Header : Tomislav Jakupec du site Pixabay">
               </a>
             </div>
@@ -49,7 +49,7 @@
                 href="https://pixabay.com/fr/vectors/m%C3%A9dias-sociaux-jeu-dic%C3%B4nes-facebook-6261530/" 
                 target="_blank">
                 <img
-                  src="../../images/logos/logo-source.webp" 
+                  src="public/images/logos/logo-source.webp" 
                   alt="Logo des réseaux sociaux : goddessSue13 du site Pixabay">
               </a>
             </div>
@@ -144,7 +144,7 @@
 
       <!--Footer-->
       <?php 
-      include './footer.php'
+      include './public/php/footer.php'
       ?>
      
   </body>

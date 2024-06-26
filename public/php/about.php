@@ -11,14 +11,14 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
       <!--Styles : CSS-->
-      <link rel="stylesheet" href="../styles/common.css" type="text/css">
-      <link rel="stylesheet" href="../styles/about.css" type="text/css">
+      <link rel="stylesheet" href="public/styles/common.css" type="text/css">
+      <link rel="stylesheet" href="public/styles/about.css" type="text/css">
     </head>
 
     <body>
       <!--Header-->
       <?php 
-        include './header.php'
+        include './public/php/header.php'
       ?>
 
       <main>
@@ -30,10 +30,10 @@
             <p>Email : ivandelville@gmail.com</p>
             <div>
               <a href="https://www.linkedin.com/in/ivan-delville-5b5177122/" target="_blank">
-                <img class="logo-social link" src="../../images/logos/logo-linkedin.webp" alt="Accès à mon profil Linkedin - Logo de Linkedin">
+                <img class="logo-social link" src="/public/images/logos/logo-linkedin.webp" alt="Accès à mon profil Linkedin - Logo de Linkedin">
               </a>
               <a href="https://github.com/Popov505" target="_blank">
-                <img class="logo-social link" src="../../images/logos/logo-github.webp" alt="Accès à mon profil Github - Logo de Github">
+                <img class="logo-social link" src="/public/images/logos/logo-github.webp" alt="Accès à mon profil Github - Logo de Github">
               </a>
             </div>
           </section>
@@ -244,7 +244,7 @@
 
       <!--Footer-->
       <?php 
-      include './footer.php'
+      include './public/php/footer.php'
       ?>
      
   </body>

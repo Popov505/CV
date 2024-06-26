@@ -32,7 +32,7 @@
 }
 .personnal .various {
   grid-area: various;
-  background-image: url("../../images/photos/photo-ivan-surf-square.webp");
+  background-image: url("/public/images/photos/photo-ivan-surf-square.webp");
   background-size: cover;
   filter: brightness(130%);
 }
