@@ -20,7 +20,7 @@
     <body>
       <!--Header-->
       <?php 
-      include './header.php'
+      include './public/php/header.php'
       ?>
 
       <main>
@@ -134,7 +134,7 @@
 
       <!--Footer-->
       <?php 
-      include '/php/footer.php'
+      include '/public/php/footer.php'
       ?>
      
   </body>
