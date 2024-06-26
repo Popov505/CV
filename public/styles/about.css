@@ -39,7 +39,8 @@
   background-size: cover;
   filter: brightness(130%);
 }
-.personnal .various h3, .personnal .various p {
+.personnal .various h3, .personnal .various p, 
+.personnal .informations h3, .personnal .informations p {
   text-shadow: white 0 0 3px;
   color: black;
 }
