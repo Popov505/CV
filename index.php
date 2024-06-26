@@ -11,8 +11,8 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
       <!--Styles : CSS-->
-      <link rel="stylesheet" href="/../styles/common.css" type="text/css">
-      <link rel="stylesheet" href="./public/styles/index.css" type="text/css">
+      <link rel="stylesheet" href="/public/styles/common.css" type="text/css">
+      <link rel="stylesheet" href="/public/styles/index.css" type="text/css">
       <!--Script : JS-->
       <script defer src="/public/scripts/index.js"></script>
     </head>
@@ -20,7 +20,7 @@
     <body>
       <!--Header-->
       <?php 
-      include './header.php'
+      include '/public/php/header.php'
       ?>
 
       <main>
@@ -52,7 +52,7 @@
               <li class="soft-skill">Adaptabilité</li>
             </ul>
           </section>
-          <a class="link-text" href="./about.php">En savoir plus sur mes compétences, études et expériences</a>
+          <a class="link-text" href="/public/php/about.php">En savoir plus sur mes compétences, études et expériences</a>
         </article>     
 
         <article class="about dark-theme">
@@ -65,7 +65,7 @@
             </p>
             <img
               class="about-picture"
-              src="./public/images/photos/photo-ivan-surf.webp" 
+              src="/public/images/photos/photo-ivan-surf.webp" 
               alt="Photo de Ivan Delville, développeur web full stack, en train de surfer">
           </section>
           <div class="about-buttons">
@@ -73,7 +73,7 @@
             <form
               class="cv-form"
               method="get" 
-              action="../../documents/Ivan Delville FullStack.pdf"
+              action="/documents/Ivan Delville FullStack.pdf"
               target="_blank">
               <button class="link-text" type="submit">Visualiser mon CV</button>
             </form>            
@@ -93,7 +93,7 @@
             <div class="slide">
               <img 
                 class="image" 
-                src="../../images/illustrations/illustration-croisty-bats.webp" 
+                src="/public/images/illustrations/illustration-croisty-bats.webp" 
                 alt="Illustation du site du club de roller derby : les Croisty Bats">
               <h4 class="title">Club de roller derby : les Croisty bats</h4>
             </div>
@@ -101,7 +101,7 @@
             <div class="slide">
               <img 
                 class="image" 
-                src="./../images/illustrations/illustration-des.webp" 
+                src="/public/images/illustrations/illustration-des.webp" 
                 alt="Illustation du site de jeu de dés">
               <h4 class="title">Jeu de dés</h4>
             </div>
@@ -109,7 +109,7 @@
             <div class="slide">
               <img 
                 class="image" 
-                src="./../../images/illustrations/illustration-nutritionniste.webp" 
+                src="/public/images/illustrations/illustration-nutritionniste.webp" 
                 alt="Illustation du site de Sandrine Coupart : diététicienne-nutritionniste">
               <h4 class="title">Sandrine Coupart : diététicienne-nutritionniste</h4>
             </div>
@@ -117,7 +117,7 @@
             <div class="slide">
               <img 
                 class="image" 
-                src="/../../images/illustrations/illustration-garage.webp" 
+                src="/public/images/illustrations/illustration-garage.webp" 
                 alt="Illustation du site garage de Vincent Parrot">
               <h4 class="title">Garage automobile : V.Parrot</h4>
             </div>
@@ -126,7 +126,7 @@
 
           </section>
 
-          <a class="link-text" href="./portfolio.php">En savoir plus sur mes projets & Compétences</a>
+          <a class="link-text" href="/public/php/portfolio.php">En savoir plus sur mes projets & Compétences</a>
         
         </article>
 
@@ -134,7 +134,7 @@
 
       <!--Footer-->
       <?php 
-      include './footer.php'
+      include '/public/php/footer.php'
       ?>
      
   </body>
