@@ -213,7 +213,7 @@ header {
   gap: 1.5rem;
   max-width: 100%;
   align-items: center;
-  background-image: url('/public/images/backgrounds/Tomislav\ Jakupec\ Pixabay\ 2.png');
+  background-image: url('/public/images/backgrounds/background.webp');
   background-size: cover;
   padding: 1rem;
 }
@@ -261,7 +261,7 @@ header .nav-list {
     gap: 1.5rem;
     max-width: 100%;
     align-items: center;
-    background-image: url('/public/images/backgrounds/Tomislav\ Jakupec\ Pixabay\ 2.png');
+    background-image: url('/public/images/backgrounds/background.webp');
     background-size: cover;
     padding: 1rem;
   }
