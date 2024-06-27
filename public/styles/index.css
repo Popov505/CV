@@ -105,6 +105,7 @@ main article .scroll-section .scroll-div {
 .portfolio .carrousel .slide {
   grid-area: slide;
   opacity: 0;
+  display: flex;
   gap: 1rem;
 }
 .portfolio .carrousel .active {
