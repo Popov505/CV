@@ -36,7 +36,7 @@
                 href="https://pixabay.com/fr/illustrations/r%C3%A9sum%C3%A9-contexte-fond-d%C3%A9cran-1780171/" 
                 target="_blank">
                 <img
-                  src="/public/images/backgrounds/Tomislav Jakupec Pixabay 2.png" 
+                  src="/public/images/backgrounds/background.webp" 
                   alt="Image du Header : Tomislav Jakupec du site Pixabay">
               </a>
             </div>
