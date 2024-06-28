@@ -73,7 +73,7 @@
             <form
               class="cv-form"
               method="get" 
-              action="/documents/Ivan Delville FullStack.pdf"
+              action="/documents/cv-ivan-delville-fullstack.pdf"
               target="_blank">
               <button class="link-text" type="submit">Visualiser mon CV</button>
             </form>            

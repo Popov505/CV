@@ -86,7 +86,7 @@
           </section>
 
           <section class="soft-skill-set">
-            <h3>Savoir être</h3>
+            <h3>Savoirs être</h3>
             <ul>
               <li class="soft-skill">Rigueur</li>
               <li class="soft-skill">Esprit d'équipe</li>
@@ -105,8 +105,9 @@
           </section>
 
           <section class="office-skill-set">
-            <h3>Bureautique</h3>
+            <h3>Langue et bureautique</h3>
             <ul>
+              <li class="office-skill">Anglais</li>
               <li class="office-skill">Figma</li>
               <li class="office-skill">Suite office</li>
               <li class="office-skill">Inkscape</li>
