@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="633.1842mm"
-   height="461.09329mm"
-   viewBox="0 0 633.1842 461.09329"
+   width="448.41956mm"
+   height="448.41949mm"
+   viewBox="0 0 448.41955 448.41949"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -12,7 +12,7 @@
    inkscape:export-xdpi="35"
    inkscape:export-ydpi="35"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="photo-ivan-bureau-square.svg"
+   sodipodi:docname="photo-ivan-bureau-round.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -29,8 +29,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.46636153"
-     inkscape:cx="1192.2081"
-     inkscape:cy="869.4971"
+     inkscape:cx="842.69386"
+     inkscape:cy="835.18896"
      inkscape:window-width="2400"
      inkscape:window-height="1261"
      inkscape:window-x="2391"
@@ -46,11 +46,27 @@
          height="460.21622"
          x="-176.59459"
          y="-157.48262"
-         ry="1.179716" /></clipPath></defs><g
+         ry="1.179716" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1"><ellipse
+         style="fill:none;stroke:#00ff00;stroke-width:1.58049;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         id="ellipse1"
+         cx="143.85635"
+         cy="109.26496"
+         rx="224.20976"
+         ry="224.20975" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4"><ellipse
+         style="fill:none;stroke:#00ff00;stroke-width:1.57223;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         id="ellipse4"
+         cx="137.29622"
+         cy="75.368729"
+         rx="222.25647"
+         ry="223.82083" /></clipPath></defs><g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(173.11929,124.31238)"><image
+     transform="translate(80.679629,115.25255)"><image
        width="793.75"
        height="1058.3334"
        preserveAspectRatio="none"
@@ -58,7 +74,7 @@
        id="image1"
        x="-291.75916"
        y="-380.85782"
-       clip-path="url(#clipPath2)"
+       clip-path="url(#clipPath4)"
        transform="matrix(1.0087885,0,0,1.0017376,5.0272954,33.457507)" /><rect
        style="fill:#000000;fill-opacity:0.3;stroke:none;stroke-width:0.100431;stroke-linecap:round;stroke-linejoin:round"
        id="rect3"
@@ -66,4 +82,6 @@
        height="461.09329"
        x="-173.11929"
        y="-124.31238"
-       ry="1.1780505" /></g></svg>
+       ry="1.1780505"
+       clip-path="url(#clipPath1)"
+       transform="translate(-0.32621167,-0.3077649)" /></g></svg>
