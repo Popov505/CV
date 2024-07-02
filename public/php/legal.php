@@ -65,7 +65,7 @@
                 href="https://pixabay.com/fr/vectors/ampoule-ic%C3%B4ne-id%C3%A9e-lumi%C3%A8re-jaune-1681801/" 
                 target="_blank">
                 <img
-                  src="/public/images/logos/favicon-bulb.webp" 
+                  src="/public/images/logos/favicon-source.webp" 
                   alt="Favicon du site-CV de Ivan Delville : Josy Dom Alexis du site Pixabay">
               </a>
             </div>
