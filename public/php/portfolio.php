@@ -7,7 +7,8 @@
       <!--Title-->
       <title>CV de Ivan Delville : Développeur full stack junior - Portfolio</title>
       <!--Website logo-->
-      <link rel="icon" type="image/png" href="/public/images/logos/favicon-dev.png">
+      <link rel="icon" type="image/webp" href="/public/images/logos/favicon-bulb.webp">
+      <link rel="icon" type="image/png" href="/public/images/logos/favicon-bulb.png">
       <!-- Fonts Rajdhani and Barlow -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
