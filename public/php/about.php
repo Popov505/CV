@@ -6,6 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!--Title-->
       <title>CV de Ivan Delville : Développeur full stack junior - A propos</title>
+      <!--Website logo-->
+      <link rel="icon" type="image/png" href="/public/images/logos/favicon-bulb.png">
       <!-- Fonts Rajdhani and Barlow -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

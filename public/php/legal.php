@@ -5,7 +5,9 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!--Title-->
-      <title>CV de Ivan Delville : Développeur full stack junior - Page d'accueil</title>
+      <title>CV de Ivan Delville : Développeur full stack junior - Informations légales</title>
+      <!--Website logo-->
+      <link rel="icon" type="image/png" href="/public/images/logos/favicon-bulb.png">
       <!-- Fonts Rajdhani and Barlow -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,6 +53,32 @@
                 <img
                   src="/public/images/logos/logo-source.webp" 
                   alt="Logo des réseaux sociaux : goddessSue13 du site Pixabay">
+              </a>
+            </div>
+
+            <div class="favicon-source">
+              <h4 class="title">Logo de mon site-CV (1/2)</h4>
+              <p class="text">Mohamed Hassan du site Pixabay</p>
+              <a 
+                class="image link" 
+                href="https://pixabay.com/fr/vectors/programmeur-dactylographie-3606210/" 
+                target="_blank">
+                <img
+                  src="/public/images/logos/favicon.webp" 
+                  alt="Favicon du site-CV de Ivan Delville : Mohamed Hassan du site Pixabay">
+              </a>
+            </div>
+
+            <div class="favicon-source">
+              <h4 class="title">Logo de mon site-CV (2/2)</h4>
+              <p class="text">OpenClipart-Vectors du site Pixabay</p>
+              <a 
+                class="image link" 
+                href="https://pixabay.com/fr/vectors/connexions-linternet-rapporter-1293432/" 
+                target="_blank">
+                <img
+                  src="/public/images/logos/favicon.webp" 
+                  alt="Favicon du site-CV de Ivan Delville : OpenClipart-Vectors du site Pixabay">
               </a>
             </div>
           </section>
