@@ -65,14 +65,15 @@ main article .scroll-section .scroll-div {
 
 /* Portfolio article */
 .portfolio {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 /* Portfolio Carrousel - START */
 .portfolio .carrousel {
-  width: 100%;
   background-color: var(--paler-white);
+  max-width: 100%;
   height: fit-content;
   z-index: 1;
 
@@ -114,7 +115,7 @@ main article .scroll-section .scroll-div {
   animation-fill-mode: forwards;
 }
 .portfolio .slide .image {
-  width: 20rem;
+  max-width: 20rem;
 }
 .portfolio .slide .title {
   color: var(--paler-grey);
