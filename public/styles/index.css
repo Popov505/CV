@@ -71,8 +71,8 @@ main article .scroll-section .scroll-div {
 }
 /* Portfolio Carrousel - START */
 .portfolio .carrousel {
+  width: 100%;
   background-color: var(--paler-white);
-  width: fit-content;
   height: fit-content;
   z-index: 1;
 
