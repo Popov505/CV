@@ -58,30 +58,18 @@
             </div>
 
             <div class="favicon-source">
-              <h4 class="title">Logo de mon site-CV (1/2)</h4>
-              <p class="text">Mohamed Hassan du site Pixabay</p>
+              <h4 class="title">Logo de mon site-CV</h4>
+              <p class="text">Josy Dom Alexis du site Pixabay</p>
               <a 
                 class="image link" 
-                href="https://pixabay.com/fr/vectors/programmeur-dactylographie-3606210/" 
+                href="https://pixabay.com/fr/vectors/ampoule-ic%C3%B4ne-id%C3%A9e-lumi%C3%A8re-jaune-1681801/" 
                 target="_blank">
                 <img
-                  src="/public/images/logos/favicon.webp" 
-                  alt="Favicon du site-CV de Ivan Delville : Mohamed Hassan du site Pixabay">
+                  src="/public/images/logos/favicon-bulb.webp" 
+                  alt="Favicon du site-CV de Ivan Delville : Josy Dom Alexis du site Pixabay">
               </a>
             </div>
 
-            <div class="favicon-source">
-              <h4 class="title">Logo de mon site-CV (2/2)</h4>
-              <p class="text">OpenClipart-Vectors du site Pixabay</p>
-              <a 
-                class="image link" 
-                href="https://pixabay.com/fr/vectors/connexions-linternet-rapporter-1293432/" 
-                target="_blank">
-                <img
-                  src="/public/images/logos/favicon.webp" 
-                  alt="Favicon du site-CV de Ivan Delville : OpenClipart-Vectors du site Pixabay">
-              </a>
-            </div>
           </section>
         </article>
 
