@@ -77,7 +77,7 @@ main article .scroll-section .scroll-div {
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
-    ". title ."
+    "title title title"
     "previous slide next";
   gap: 5%;
 }
