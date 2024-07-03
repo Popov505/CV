@@ -113,11 +113,12 @@ main article .scroll-section .scroll-div {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+ /*
 .portfolio .slide .image {
-  width: auto;
-  max-width: 500px;
+  width: 20rem;
   height: auto;
 }
+*/
 .portfolio .slide .title {
   color: var(--paler-grey);
   margin-top: 1rem;
