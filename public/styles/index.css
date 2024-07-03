@@ -66,9 +66,6 @@ main article .scroll-section .scroll-div {
 /* Portfolio article */
 .portfolio {
   width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,14 +73,11 @@ main article .scroll-section .scroll-div {
 /* Portfolio Carrousel - START */
 .portfolio .carrousel {
   background-color: var(--paler-white);
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
   height: fit-content;
   z-index: 1;
 
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
     ". title ."
@@ -109,8 +103,6 @@ main article .scroll-section .scroll-div {
   grid-area: next;
 }
 .portfolio .carrousel .slide {
-  width: 100%;
-  max-width: 100%;
   grid-area: slide;
   opacity: 0;
 }
@@ -122,8 +114,7 @@ main article .scroll-section .scroll-div {
   animation-fill-mode: forwards;
 }
 .portfolio .slide .image {
-  width: 100%;
-  max-width: 100%;
+  width: 20rem;
   height: auto;
 }
 .portfolio .slide .title {
