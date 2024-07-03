@@ -77,12 +77,12 @@ main article .scroll-section .scroll-div {
   height: fit-content;
   z-index: 1;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
     ". title ."
     "previous slide next";
-  gap: 1.5rem 0;
+  gap: 5%;
 }
 .portfolio .carrousel-title {
   grid-area: title;
@@ -95,6 +95,7 @@ main article .scroll-section .scroll-div {
   z-index: 2;
   cursor: pointer;
   color: var(--paler-grey);
+  width: 20%;
 }
 #previous_button {
   grid-area: previous;
@@ -114,6 +115,7 @@ main article .scroll-section .scroll-div {
   animation-fill-mode: forwards;
 }
 .portfolio .slide .image {
+  width: 50%;
   max-width: 20rem;
   height: auto;
 }
