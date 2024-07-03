@@ -77,7 +77,7 @@ main article .scroll-section .scroll-div {
   height: fit-content;
   z-index: 1;
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
     ". title ."
@@ -113,12 +113,10 @@ main article .scroll-section .scroll-div {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
- /*
 .portfolio .slide .image {
-  width: 20rem;
+  max-width: 20rem;
   height: auto;
 }
-*/
 .portfolio .slide .title {
   color: var(--paler-grey);
   margin-top: 1rem;
