@@ -115,6 +115,7 @@ main article .scroll-section .scroll-div {
 }
 .portfolio .slide .image {
   width: 20rem;
+  max-width: 80%;
   height: auto;
 }
 .portfolio .slide .title {
